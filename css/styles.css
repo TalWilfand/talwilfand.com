@@ -116,7 +116,7 @@ body {
 }
 .boss_visuals {
   height: 100vh;
-  background-image: url('../assets/krillmove.gif');
+  background-image: url('../assets/BossAI.gif');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -3423,6 +3423,32 @@ textarea.form-control-lg {
   vertical-align: 0;
 }
 
+/* Show dropdown on hover */
+@media (min-width: 992px) {
+    .navbar .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
+/* Dropdown appearance */
+.dropdown-menu {
+    background-color: #000;
+    border: none;
+    border-radius: 0;
+}
+
+/* Dropdown links */
+.dropdown-item {
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Hover color */
+.dropdown-item:hover {
+    background-color: #1925AE;
+    color: white;
+}
 .dropstart .dropdown-menu[data-bs-popper] {
   top: 0;
   right: 100%;
