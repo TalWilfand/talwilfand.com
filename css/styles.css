@@ -273,7 +273,21 @@ sup {
 sub {
   bottom: -0.25em;
 }
+.project-details {
+    max-width: 900px;
+    margin: 0 auto;
+}
 
+.project-details h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.project-details ul {
+    padding-left: 25px;
+    line-height: 1.8;
+}
 sup {
   top: -0.5em;
 }
