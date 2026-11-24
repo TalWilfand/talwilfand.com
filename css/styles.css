@@ -8397,7 +8397,6 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
 .bg-lightblue {
-  --bs-bg-opacity: 1;
   background-color: #0dcaf0 !important;
 }
 .bg-white {
