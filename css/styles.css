@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #ffffff;
-  --bs-link-hover-color: #6e6e6e;
+  --bs-link-color: #1925AE;
+  --bs-link-hover-color: #6A5ACD;
   --bs-code-color: #e21e80;
   --bs-highlight-bg: #fff3cd;
 }
@@ -104,6 +104,17 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .hero {
+  height: 100vh;
+  background-image: url('../assets/krillmove.gif');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.boss_visuals {
   height: 100vh;
   background-image: url('../assets/krillmove.gif');
   background-size: cover;
