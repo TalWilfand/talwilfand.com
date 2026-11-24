@@ -7991,8 +7991,7 @@ textarea.form-control-lg {
 .py-1 {
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important;
-    background-color: lightblue;
-
+  
 }
 
 .py-2 {
@@ -8397,7 +8396,10 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
-
+.bg-lightblue {
+  --bs-bg-opacity: 1;
+  background-color: bg-lightblue !important;
+}
 .bg-white {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
