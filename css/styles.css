@@ -7991,6 +7991,8 @@ textarea.form-control-lg {
 .py-1 {
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important;
+    background-color: lightblue;
+
 }
 
 .py-2 {
