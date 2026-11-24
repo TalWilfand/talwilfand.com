@@ -8401,6 +8401,8 @@ textarea.form-control-lg {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 .bg-white {
   --bs-bg-opacity: 1;
