@@ -8397,7 +8397,10 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
 .bg-lightblue {
-  background-color: #0dcaf0 !important;
+    background-image: url("../assets/Krillion_Background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .bg-white {
   --bs-bg-opacity: 1;
