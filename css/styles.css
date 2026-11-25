@@ -11647,7 +11647,7 @@ html {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: -webkit-linear-gradient(315deg, #8ea2ff  0%, #c084fc 50%,#ff75c3  100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
