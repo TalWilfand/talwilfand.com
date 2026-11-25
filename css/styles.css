@@ -125,6 +125,17 @@ body {
   align-items: center;
   color: white;
 }
+.mobius {
+  height: 100vh;
+  background-image: url('../assets/mobius.gif');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 .video-container {
     position: relative;
     width: 100%;
