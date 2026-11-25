@@ -279,6 +279,8 @@ sub {
 .project-details {
     max-width: 900px;
     margin: 0 auto;
+  background-color: rgba(208, 231, 255, 0.85);
+
 }
 
 .project-details h3 {
