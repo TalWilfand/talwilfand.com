@@ -282,7 +282,13 @@ sub {
     background-color: rgba(208, 231, 255, 0.90);
 
 }
-
+.project-details-video {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgba(208, 231, 255, 0.90);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 .project-details h3 {
     text-align: center;
     margin-top: 30px;
