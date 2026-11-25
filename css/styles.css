@@ -11650,6 +11650,8 @@ html {
   background: -webkit-linear-gradient(315deg, #8ea2ff  0%, #c084fc 50%,#ff75c3  100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.4));
+
 }
 
 .rounded-4 {
