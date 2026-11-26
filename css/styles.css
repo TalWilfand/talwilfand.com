@@ -136,6 +136,50 @@ body {
   align-items: center;
   color: white;
 }
+.pathfinding_gif {
+  height: 100vh;
+  background-image: url('../assets/pathfinding.gif');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.unreal_stealth_gif {
+  height: 100vh;
+  background-image: url('../assets/unreal.gif');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.procedural_gen_gif {
+  height: 100vh;
+  background-image: url('../assets/procedural_gif.gif');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.automatic_sim {
+  height: 100vh;
+  background-image: url('../assets/automatic_sim.gif');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 .video-container {
     position: relative;
     width: 100%;

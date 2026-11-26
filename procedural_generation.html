@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>One In a Krillion</title>
+        <title>Procedural Generation</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/square-letter-t.png" />
         <!-- Custom Google font-->
@@ -40,10 +40,10 @@
 
                                 <ul class="dropdown-menu" aria-labelledby="gameProjectsDropdown">
                                     <li><a class="dropdown-item" href="one_in_a_krillion.html">One in a Krillion</a></li>                                    
-                                    <li><a class="dropdown-item" href="projects.html">Cu Blight</a></li>                                    
-                                    <li><a class="dropdown-item" href="projects.html">Cooper's Cleanup</a></li>                                    
-                                    <li><a class="dropdown-item" href="projects.html">GAMESHIFT</a></li>
-                                    <li><a class="dropdown-item" href="projects.html">Mobius Rain</a></li>
+                                    <li><a class="dropdown-item" href="cu_blight.html">Cu Blight</a></li>                                    
+                                    <li><a class="dropdown-item" href="coopers_cleanup.html">Cooper's Cleanup</a></li>                                    
+                                    <li><a class="dropdown-item" href="gameshift.html">GAMESHIFT</a></li>
+                                    <li><a class="dropdown-item" href="mobius_rain.html">Mobius Rain</a></li>
 
 
                                 </ul>
@@ -59,9 +59,9 @@
                                 </a>
 
                                 <ul class="dropdown-menu" aria-labelledby="gameProjectsDropdown">
-                                    <li><a class="dropdown-item" href="projects.html">Pathfinding</a></li>
-                                    <li><a class="dropdown-item" href="projects.html">Noise Terrain Generator</a></li>
-                                    <li><a class="dropdown-item" href="projects.html">Unreal Stealth</a></li>
+                                    <li><a class="dropdown-item" href="pathfinding.html">Pathfinding</a></li>
+                                    <li><a class="dropdown-item" href="noise_terrain.html">Noise Terrain Generator</a></li>
+                                    <li><a class="dropdown-item" href="unreal_stealth.html">Unreal Stealth</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -75,9 +75,9 @@
                                 </a>
 
                                 <ul class="dropdown-menu" aria-labelledby="gameProjectsDropdown">
-                                    <li><a class="dropdown-item" href="projects.html">Procedural Generation</a></li>
-                                    <li><a class="dropdown-item" href="projects.html">Terrain Analysis Map</a></li>
-                                    <li><a class="dropdown-item" href="projects.html">Automatic Simulator</a></li>
+                                    <li><a class="dropdown-item" href="procedural_generation.html">Procedural Generation</a></li>
+                                    <li><a class="dropdown-item" href="terrain_analysis.html">Terrain Analysis Map</a></li>
+                                    <li><a class="dropdown-item" href="automatic_simulator.html">Automatic Simulator</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item"><a class="nav-link" href="resume.html">Professional Experience</a></li>
@@ -92,29 +92,16 @@
             <section class="py-1">
                 <div class="container px-5 mb-5">
                     <div class="text-center mb-5 project-details">
-                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">One in a Krillion</span></h1>
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Procedural Generation</span></h1>
                     </div>
 
                     <div class="container my-5 project-details-video">
-                        <h2 class="text-center mb-4">Game Trailer</h2>
 
-                        <div class="video-container">
-                            <iframe
-                                src="https://www.youtube.com/embed/YR-3VEKF25c"
-                                title="Game Trailer"
-                                allowfullscreen>
-                            </iframe>
+                        <div class="procedural_gen_gif">
+
                         </div>
                     </div>
 
-                    <div class="text-center mt-4">
-                        <a href="https://store.steampowered.com/app/2924160/One_in_a_Krillion/"
-                        class="btn btn-primary"
-                        role="button"
-                        target="_blank">
-                            View on Steam
-                        </a>
-                    </div>
                 </div>
             </section>
         <div class="container my-5">
@@ -130,37 +117,20 @@
         <h2 class="text-center mb-4">Background</h2> 
             <ul>
                 <li>
-                    <strong>Team:</strong> 8 Programmers, 1 Designer
-                    August 2023 – April 2024
+                    The framework with the player controller and some minor tile functionality was provided
+                    September 2022 - October 2022
                 </li>
             </ul>        
         <h2 class="text-center mb-4">My Contributions</h2>
 
         <ul>
-            <li>
-                <strong>Enemy AI:</strong>
-                Worked directly with a Behavior Tree editor in Unity
-                to incorporate four enemy types using custom AI nodes.
-            </li>
+            Created an algorithm that creates a noticeably different design for the level every time it is run
 
-            <li>
-                <strong>Enemy Architecture:</strong>
-                Engineered an abstract Enemy class that allows
-                programmers to build upon it and create unique enemies.
-            </li>
+            Designed the level to create a gradual arc, with more difficult enemies being spawned in the latter sections.
 
-            <li>
-                <strong>Combat & Mathematics:</strong>
-                Applied mathematics and linear interpolation to
-                create interesting attacks, including a swordfish
-                charging spin attack that gradually increases in speed.
-            </li>
+            Segmented the level into different sections with each section having a different key that unlocks the next section
 
-            <li>
-                <strong>Audio Implementation:</strong>
-                Used REAPER to add and mix recorded audio,
-                triggered through dynamic in-game events.
-            </li>
+            Implemented different obstacles and powerups that are spawned onto the level. There is always a way for the player to make it to the end
         </ul>
     </div>
     </div>
